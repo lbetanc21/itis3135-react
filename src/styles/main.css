@@ -79,3 +79,10 @@ button:hover { background-color: #0066cc; }
 @media screen and (max-width: 768px) {
   main { max-width: 100%; width: 98%; padding: 15px; }
 }
+
+ul {
+  padding-left: 1.25rem;
+}
+ul li {
+  margin-bottom: 6px;
+}

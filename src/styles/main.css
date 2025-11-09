@@ -30,3 +30,52 @@ section > h2 { margin-top:0; }
   transition: background-color 0.3s ease;
 }
 .button-link:hover { background-color: #0066cc; }
+
+/* Introduction form styles from original page */
+main { max-width: 1200px; width: 90%; margin: 0 auto; text-align: left; }
+fieldset {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 15px;
+  margin-bottom: 20px;
+  background: #fff;
+}
+legend { font-weight: bold; color: #00467f; }
+label { display: block; margin-top: 8px; font-weight: bold; }
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+button {
+  margin-top: 10px;
+  padding: 8px 15px;
+  border: none;
+  background-color: #00467f;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+button:hover { background-color: #0066cc; }
+.delete_course_btn {
+  background-color: #c0392b;
+  color: #fff;
+  margin-top: 10px;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.delete_course_btn:hover { background-color: #e74c3c; }
+
+/* Responsive tweaks (from original) */
+@media screen and (max-width: 1024px) {
+  main { max-width: 900px; width: 95%; }
+}
+@media screen and (max-width: 768px) {
+  main { max-width: 100%; width: 98%; padding: 15px; }
+}

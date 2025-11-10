@@ -86,3 +86,32 @@ ul {
 ul li {
   margin-bottom: 6px;
 }
+
+/* Intro page layout */
+.intro-grid {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 1.25rem;
+  align-items: start;
+}
+.intro-photo img { width: 100%; border-radius: 12px; display: block; }
+.intro-photo figcaption { text-align: center; margin-top: .5rem; font-size: .9rem; color: #666; }
+
+.bullet-list li { margin-bottom: .4rem; }
+.checklist li::marker { content: "▸ "; color: #0a63b8; }
+
+.pill-list { display: flex; flex-wrap: wrap; gap: .5rem; padding-left: 0; list-style: none; }
+.pill-list li { padding: .35rem .6rem; border: 1px solid #dce3ea; border-radius: 999px; font-size: .9rem; }
+
+.link-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px,1fr)); gap: .5rem; }
+.link-list a { text-decoration: none; }
+.link-list a:hover { text-decoration: underline; }
+
+.quote { margin: 1.25rem 0; }
+.quote blockquote { font-size: 1.1rem; margin: 0; }
+.quote cite { display: block; margin-top: .25rem; color: #666; }
+
+@media (max-width: 800px) {
+  .intro-grid { grid-template-columns: 1fr; }
+}
+

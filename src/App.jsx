@@ -5,7 +5,7 @@ import Footer from './components/Footer.jsx'
 import Home from './pages/Home.jsx'
 import Introduction from './pages/Introduction.jsx'
 import Contract from './pages/Contract.jsx'
-import Students from './Students.jsx'
+import Students from './pages/Students.jsx'
 
 export default function App() {
   return (
